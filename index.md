@@ -14,9 +14,9 @@ The short version: Copia collects the minimum needed to sign you in and sync you
 
 ## Who we are
 
-Copia is developed by [YOUR LEGAL NAME OR BUSINESS NAME].
+Copia is developed by Ryan Craun.
 
-Contact: [YOUR SUPPORT EMAIL]
+Contact: you@example.com
 
 ---
 
@@ -116,4 +116,4 @@ If we make a material change to this policy, we will update the effective date a
 
 ## Contact
 
-Questions about this policy or your data: [YOUR SUPPORT EMAIL]
+Questions about this policy or your data: you@example.com
