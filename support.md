@@ -32,7 +32,7 @@ Copia sorts your list by the route you walk rather than the order you typed thin
 
 ### How do I share a list?
 
-Open a list, tap the **···** menu in the top right, and choose **Share list**. They'll need an account to join. Anything either of you checks off updates for both.
+Open a list, tap the **···** menu in the top right, and choose **Share list**. Send the link to whoever you want on the list — they will need an account to join. Anything either of you checks off updates for both of you.
 
 ### How do I cancel my subscription?
 
