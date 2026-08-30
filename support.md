@@ -8,7 +8,7 @@ Copia turns recipes into grocery lists, sorted the way you actually walk your st
 
 **Contact: [craunryan@gmail.com](mailto:craunryan@gmail.com)**
 
-Email is the fastest way to reach us. Please include your iPhone model and iOS version if you're reporting a problem — it usually makes the difference between a guess and a fix.
+Email is the fastest way to reach us. Please include your iPhone model and iOS version if you're reporting a problem. It usually makes the difference between a guess and a fix.
 
 ---
 
@@ -22,17 +22,17 @@ No. Lists, scanning, pasting and recipe import all work signed out, and your lis
 
 Three ways, all on the list screen:
 
-- **Scan** — point the camera at a cookbook page or a printed recipe.
-- **Paste** — paste a block of text, or a link to a recipe page. Copia reads the ingredients off the page.
-- **Browse recipes** — search Copia's recipe catalogue and add one directly.
+- **Scan.** Point the camera at a cookbook page or a printed recipe.
+- **Paste.** Paste a block of text, or a link to a recipe page. Copia reads the ingredients off the page.
+- **Browse recipes.** Search Copia's recipe catalogue and add one directly.
 
 ### Why is my list in that order?
 
-Copia sorts your list by the route you walk rather than the order you typed things in — produce first, then the aisles, then the back of the store. It learns your store's layout as you check things off, so the order improves the more you shop.
+Copia sorts your list by the route you walk rather than the order you typed things in. Produce first, then the aisles, then the back of the store. It learns your store's layout as you check things off, so the order improves the more you shop.
 
 ### How do I share a list?
 
-Open a list, tap the **···** menu in the top right, and choose **Share list**. Send the link to whoever you want on the list — they will need an account to join. Anything either of you checks off updates for both of you.
+Open a list, tap the **···** menu in the top right, and choose **Share list**. Send the link to whoever you want on the list. They will need an account to join, and anything either of you checks off updates for both of you.
 
 ### How do I cancel my subscription?
 
