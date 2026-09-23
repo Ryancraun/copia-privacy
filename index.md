@@ -4,7 +4,7 @@ title: Copia Privacy Policy
 
 # Privacy Policy
 
-**Effective date: August 16, 2026**
+**Effective date: September 22, 2026**
 
 Copia is a grocery list and recipe app. This policy explains what the app collects, why, and what happens to it.
 
@@ -55,17 +55,37 @@ Copia offers optional paid subscriptions and a one-time lifetime option. **All p
 Some of the most sensitive processing in Copia never leaves your phone:
 
 - **Recipe scanning.** When you photograph a recipe, the images are processed on your device. Text recognition and ingredient extraction — including any processing done through Apple Intelligence — happen locally. **The photographs themselves are never uploaded to our servers.** Only the resulting ingredient list, which becomes part of your list content, is stored and synced.
-- **Camera and photo library access.** Copia requests access only when you use the scanning feature, and uses it only for that purpose.
+- **Dish photos.** When you photograph a dish for Ask Copia, Apple's Vision framework reads it on your device to work out what the dish is. The photo is not uploaded unless you have turned on smarter answers, have Copia Pro, and are using that photo to ask; see "AI features" below.
+- **Camera and photo library access.** Copia requests access only when you use the scanning or dish-photo features, and uses it only for those purposes.
 
 ---
 
-## Who else is involved
+## AI features
+
+Ask Copia is the assistant on the Recipes tab. It answers questions like "burgers tonight" by picking recipes from Copia's own catalogue and turning them into a list.
+
+**By default it runs on your iPhone.** Where your phone has Apple's on-device model, that writes the answer; everywhere else, Copia searches its bundled recipe catalogue and answers from that. Nothing leaves the device.
+
+**Smarter answers are optional and off until you say yes.** Some versions of Copia can send your question to a server for a better answer. Before the first such request, the app asks for your permission and explains exactly what will be sent. If you decline, Ask Copia keeps working using only your iPhone. You can turn smarter answers on or off at any time in Settings.
+
+When smarter answers are on, each question sends:
+
+- **What is sent:** the text of your question, the titles and ingredient lists of up to twelve matching recipes from Copia's catalogue, the last few turns of that conversation, and, only if you have Copia Pro and used a photo for that question, a reduced-size copy of the dish photo.
+- **What is not sent:** your name, email address, account, lists, list contents, location, or any device identifier. The only extra value sent is a random number the app makes up once, used to limit how many requests a day one install can make. It is not linked to your account and you can reset it by reinstalling.
+- **To whom:** Copia's own server (hosted on Supabase), which forwards the request to a third-party AI provider to write the reply. The provider may be Anthropic, OpenAI, or Google, depending on the version; the request is sent under Copia's account with that provider, not yours, and is subject to that provider's API data terms, which for all three do not permit using the content to train their models.
+- **Why:** to write the answer, choose which of the candidate recipes fit, and suggest follow-up questions. That is the only purpose.
+- **Retention:** Copia's server does not store your questions, answers, or photos. It keeps a daily count of requests per random install number, which is discarded after the day ends.
+- **Not tracking:** none of this is used for advertising, profiling, or tracking, and none of it is sold or shared beyond the provider that writes the answer.
+
+**Reporting an answer.** Every AI reply has a "Report this answer" link. Reporting is counted on your device so the app can show you it was kept; it does not send the conversation anywhere.
+
 
 Copia relies on a small number of third parties to function:
 
 - **Supabase** — hosts our database and handles authentication. Your account and your synced content are stored there. Access is restricted by row-level security so that you and the members of your shared lists are the only people who can read your lists.
 - **Apple** — handles Sign in with Apple, App Store purchases, and subscription management, under [Apple's own privacy policy](https://www.apple.com/legal/privacy/).
 - **Recipe search providers** — when you search for a recipe, your search terms are sent to third-party recipe services to return results. Your account identity is not sent with these searches.
+- **AI providers** — only if you turn on smarter answers in Ask Copia. Your question and matching recipe titles are forwarded through Copia's server to one of Anthropic, OpenAI, or Google to write the reply, under Copia's own API account. See "AI features" above for exactly what is and is not sent.
 
 We do not use advertising networks, analytics SDKs, or tracking frameworks. Copia does not track you across other apps or websites, and we do not sell or rent your information to anyone.
 
