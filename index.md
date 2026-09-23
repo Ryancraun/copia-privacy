@@ -4,7 +4,7 @@ title: Copia Privacy Policy
 
 # Privacy Policy
 
-**Effective date: September 22, 2026**
+**Effective date: September 23, 2026**
 
 Copia is a grocery list and recipe app. This policy explains what the app collects, why, and what happens to it.
 
@@ -72,12 +72,14 @@ When smarter answers are on, each question sends:
 
 - **What is sent:** the text of your question, the titles and ingredient lists of up to twelve matching recipes from Copia's catalogue, the last few turns of that conversation, and, only if you have Copia Pro and used a photo for that question, a reduced-size copy of the dish photo.
 - **What is not sent:** your name, email address, account, lists, list contents, location, or any device identifier. The only extra value sent is a random number the app makes up once, used to limit how many requests a day one install can make. It is not linked to your account and you can reset it by reinstalling.
-- **To whom:** Copia's own server (hosted on Supabase), which forwards the request to a third-party AI provider to write the reply. The provider may be Anthropic, OpenAI, or Google, depending on the version; the request is sent under Copia's account with that provider, not yours, and is subject to that provider's API data terms, which for all three do not permit using the content to train their models.
+- **To whom:** Copia's own server (hosted on Supabase), which forwards the request to **Anthropic** (the Claude model) to write the reply. The request is sent under Copia's account with Anthropic, not yours. Under Anthropic's commercial API terms, Anthropic does not use this content to train its models.
 - **Why:** to write the answer, choose which of the candidate recipes fit, and suggest follow-up questions. That is the only purpose.
 - **Retention:** Copia's server does not store your questions, answers, or photos. It keeps a daily count of requests per random install number, which is discarded after the day ends.
 - **Not tracking:** none of this is used for advertising, profiling, or tracking, and none of it is sold or shared beyond the provider that writes the answer.
 
-**Reporting an answer.** Every AI reply has a "Report this answer" link. Reporting is counted on your device so the app can show you it was kept; it does not send the conversation anywhere.
+**Recipes Copia writes.** When no recipe in the catalogue fits, the AI may write a new one. It is stored on Copia's server so others can find it, and it contains only the recipe: title, ingredients, steps and times. It is never linked to you, your question, or your device.
+
+**Filtering and reporting.** Ask Copia answers only about recipes and grocery lists; questions or answers containing objectionable language are blocked. The flag at the top of each chat reports the conversation. A report sends only the identifiers of any recipes Copia wrote in that chat, never your messages; recipes that are reported repeatedly are hidden and reviewed. You can also reach us at craunryan@gmail.com.
 
 
 Copia relies on a small number of third parties to function:
@@ -85,7 +87,7 @@ Copia relies on a small number of third parties to function:
 - **Supabase** — hosts our database and handles authentication. Your account and your synced content are stored there. Access is restricted by row-level security so that you and the members of your shared lists are the only people who can read your lists.
 - **Apple** — handles Sign in with Apple, App Store purchases, and subscription management, under [Apple's own privacy policy](https://www.apple.com/legal/privacy/).
 - **Recipe search providers** — when you search for a recipe, your search terms are sent to third-party recipe services to return results. Your account identity is not sent with these searches.
-- **AI providers** — only if you turn on smarter answers in Ask Copia. Your question and matching recipe titles are forwarded through Copia's server to one of Anthropic, OpenAI, or Google to write the reply, under Copia's own API account. See "AI features" above for exactly what is and is not sent.
+- **Anthropic (AI provider)** — only if you turn on smarter answers in Ask Copia. Your question and matching recipe titles are forwarded through Copia's server to Anthropic's Claude to write the reply, under Copia's own API account. See "AI features" above for exactly what is and is not sent.
 
 We do not use advertising networks, analytics SDKs, or tracking frameworks. Copia does not track you across other apps or websites, and we do not sell or rent your information to anyone.
 
